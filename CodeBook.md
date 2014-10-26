@@ -3,11 +3,11 @@ Code Book
 
 The dataset obtained after running the run_analysis.R script contains 35 observations of 68 variables. Each observation corresponds to the pair subject/activity, i.e. each row contains the data obtained for a subject doing a specific activity.
 
-The first variable is "subject_id". This is a number from 1 to 30 identifying the subject for whom the measurements were taken.
+* The first variable is "subject_id". This is a number from 1 to 30 identifying the subject for whom the measurements were taken.
 
-The second variable is "activity". It describes the activity for which the measurements were taken. There are 6 possibles activities: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING.
+* The second variable is "activity". It describes the activity for which the measurements were taken. There are 6 possibles activities: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING.
 
-The other 66 variables reflect the **average value** of all the original measurements of a specific feature for that subject and activity. That way, for instance, the third variable, "tBodyAcc-mean()-X" reflects the average value of all the observations of the mean value for the body acceleration signal in the X direction, for a specific subject and activity.
+* The remaining 66 variables reflect the **average value** of all the original measurements of a specific feature for that subject and activity. That way, for instance, the third variable, "tBodyAcc-mean()-X" reflects the average value of all the observations of the mean value for the body acceleration signal in the X direction, for a specific subject and activity.
 
 The following text provides more information about the different features measured in those 66 variables and their abbreviations (if more info is needed please see the "features_info.txt" file of the original data set: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
 
